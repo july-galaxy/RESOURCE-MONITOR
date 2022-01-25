@@ -125,7 +125,7 @@ void getCpuUsePercentage()
     host_cpu_load_info_data_t load1 = _get_cpu_percentage();
 
     sleep(1);
- 
+
     host_cpu_load_info_data_t load2 = _get_cpu_percentage();
 
     // pre load times
